@@ -38,6 +38,66 @@ nav {
     z-index: 1000;
     overflow: hidden;
 }
+
+.banner {
+  text-align: center;
+}
+
+.social-logos {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.social-logos a {
+  margin: 0 5px;
+}
+
+.social-logos img {
+  width: 30px; /* Adjust the size as needed */
+  height: auto;
+  vertical-align: middle;
+}
+
+#youtube {
+
+  height: 50px;
+}
+
+.toggler {
+  position: fixed;
+  top: 15px; /* Adjust according to your design */
+  right: 15px; /* Adjust according to your design */
+   /* Ensure it is above other elements */
+  cursor: pointer;
+  color: white;
+}
+
+.nav-Links {
+  display: none; /* Hide by default */
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 60px; /* Adjust according to your design */
+  width: 100%;
+  background-color: black;
+  /* z-index: 1000; */
+}
+
+.nav-Links a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  /* display: block; */
+  text-align: center;
+}
+
+.nav-Links.show {
+  display: flex;
+}
+
+
+
 #pdf.animate {
   animation: growShrinkAnimation 2s infinite;
 }
@@ -106,8 +166,7 @@ a {
   color: blue;
 }
 a:hover {
-    background-color:  rgb(83, 151, 20);
-        
+    background-color: rgb(171, 53, 226);
 }
 .nav-menu-links {
 
