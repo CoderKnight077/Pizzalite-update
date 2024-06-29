@@ -75,17 +75,17 @@ nav {
 
 .nav-Links {
   display: none; /* Hide by default */
-  flex-direction: column;
+/*   flex-direction: column;
   align-items: center;
   position: fixed;
-  top: 60px; /* Adjust according to your design */
-  width: 100%;
+  top: 60px;
+  width: 100%; */
   background-color: black;
   /* z-index: 1000; */
 }
 
 .nav-Links a {
-  color: white;
+  color: rgb(221, 236, 10);
   padding: 10px;
   text-decoration: none;
   /* display: block; */
